@@ -53,27 +53,25 @@
 npm install
 ```
 
-### 开发模式
+### 开发模式（推荐）
 
 ```bash
 npm run dev
 ```
 
-访问 http://localhost:5173
-
-### 构建生产版本
-
-```bash
-npm run build
-```
-
-构建产物在 `dist/` 目录。
+访问 http://localhost:5173，代码修改后页面会自动刷新。
 
 ### 预览生产版本
 
 ```bash
 npm run preview
 ```
+
+访问 http://localhost:4173
+
+### 直接打开构建好的页面
+
+进入 `dist/` 文件夹，双击 `index.html` 文件即可打开（部分功能可能受限）。
 
 ## Google 日历集成（可选）
 
